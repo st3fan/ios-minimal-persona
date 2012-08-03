@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BrowserIDViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <BrowserIDViewControllerDelegate>
+
+@property (retain, nonatomic) IBOutlet UITextView *resultTextView;
+
+- (IBAction)clearCaches:(id)sender;
+- (IBAction)startPersonaFlow:(id)sender;
 
 @end

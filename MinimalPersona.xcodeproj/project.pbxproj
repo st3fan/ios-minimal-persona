@@ -15,6 +15,10 @@
 		F8A2BACA15CC4FA000CAA854 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A2BAC915CC4FA000CAA854 /* AppDelegate.m */; };
 		F8A2BACD15CC4FA000CAA854 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A2BACC15CC4FA000CAA854 /* ViewController.m */; };
 		F8A2BAD015CC4FA000CAA854 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A2BACE15CC4FA000CAA854 /* ViewController.xib */; };
+		F8A2BAE115CC509C00CAA854 /* BrowserIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A2BADE15CC509C00CAA854 /* BrowserIDViewController.m */; };
+		F8A2BAE215CC509C00CAA854 /* BrowserIDViewController.js in Sources */ = {isa = PBXBuildFile; fileRef = F8A2BADF15CC509C00CAA854 /* BrowserIDViewController.js */; };
+		F8A2BAE315CC509C00CAA854 /* BrowserIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A2BAE015CC509C00CAA854 /* BrowserIDViewController.xib */; };
+		F8A2BAE415CC51F700CAA854 /* BrowserIDViewController.js in Resources */ = {isa = PBXBuildFile; fileRef = F8A2BADF15CC509C00CAA854 /* BrowserIDViewController.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		F8A2BACB15CC4FA000CAA854 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F8A2BACC15CC4FA000CAA854 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F8A2BACF15CC4FA000CAA854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F8A2BADD15CC509C00CAA854 /* BrowserIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserIDViewController.h; sourceTree = "<group>"; };
+		F8A2BADE15CC509C00CAA854 /* BrowserIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserIDViewController.m; sourceTree = "<group>"; };
+		F8A2BADF15CC509C00CAA854 /* BrowserIDViewController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BrowserIDViewController.js; sourceTree = "<group>"; };
+		F8A2BAE015CC509C00CAA854 /* BrowserIDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowserIDViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,10 @@
 		F8A2BABF15CC4FA000CAA854 /* MinimalPersona */ = {
 			isa = PBXGroup;
 			children = (
+				F8A2BADD15CC509C00CAA854 /* BrowserIDViewController.h */,
+				F8A2BADE15CC509C00CAA854 /* BrowserIDViewController.m */,
+				F8A2BADF15CC509C00CAA854 /* BrowserIDViewController.js */,
+				F8A2BAE015CC509C00CAA854 /* BrowserIDViewController.xib */,
 				F8A2BAC815CC4FA000CAA854 /* AppDelegate.h */,
 				F8A2BAC915CC4FA000CAA854 /* AppDelegate.m */,
 				F8A2BACB15CC4FA000CAA854 /* ViewController.h */,
@@ -150,6 +162,8 @@
 			files = (
 				F8A2BAC415CC4FA000CAA854 /* InfoPlist.strings in Resources */,
 				F8A2BAD015CC4FA000CAA854 /* ViewController.xib in Resources */,
+				F8A2BAE315CC509C00CAA854 /* BrowserIDViewController.xib in Resources */,
+				F8A2BAE415CC51F700CAA854 /* BrowserIDViewController.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +177,8 @@
 				F8A2BAC615CC4FA000CAA854 /* main.m in Sources */,
 				F8A2BACA15CC4FA000CAA854 /* AppDelegate.m in Sources */,
 				F8A2BACD15CC4FA000CAA854 /* ViewController.m in Sources */,
+				F8A2BAE115CC509C00CAA854 /* BrowserIDViewController.m in Sources */,
+				F8A2BAE215CC509C00CAA854 /* BrowserIDViewController.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

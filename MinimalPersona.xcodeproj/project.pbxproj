@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8A2BABA15CC4FA000CAA854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A2BAB915CC4FA000CAA854 /* UIKit.framework */; };
+		F8A2BABC15CC4FA000CAA854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A2BABB15CC4FA000CAA854 /* Foundation.framework */; };
+		F8A2BABE15CC4FA000CAA854 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A2BABD15CC4FA000CAA854 /* CoreGraphics.framework */; };
+		F8A2BAC415CC4FA000CAA854 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8A2BAC215CC4FA000CAA854 /* InfoPlist.strings */; };
+		F8A2BAC615CC4FA000CAA854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A2BAC515CC4FA000CAA854 /* main.m */; };
+		F8A2BACA15CC4FA000CAA854 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A2BAC915CC4FA000CAA854 /* AppDelegate.m */; };
+		F8A2BACD15CC4FA000CAA854 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A2BACC15CC4FA000CAA854 /* ViewController.m */; };
+		F8A2BAD015CC4FA000CAA854 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A2BACE15CC4FA000CAA854 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8A2BAB515CC4FA000CAA854 /* MinimalPersona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalPersona.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A2BAB915CC4FA000CAA854 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8A2BABB15CC4FA000CAA854 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8A2BABD15CC4FA000CAA854 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8A2BAC115CC4FA000CAA854 /* MinimalPersona-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinimalPersona-Info.plist"; sourceTree = "<group>"; };
+		F8A2BAC315CC4FA000CAA854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8A2BAC515CC4FA000CAA854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8A2BAC715CC4FA000CAA854 /* MinimalPersona-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MinimalPersona-Prefix.pch"; sourceTree = "<group>"; };
+		F8A2BAC815CC4FA000CAA854 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8A2BAC915CC4FA000CAA854 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8A2BACB15CC4FA000CAA854 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8A2BACC15CC4FA000CAA854 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8A2BACF15CC4FA000CAA854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8A2BAB215CC4FA000CAA854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A2BABA15CC4FA000CAA854 /* UIKit.framework in Frameworks */,
+				F8A2BABC15CC4FA000CAA854 /* Foundation.framework in Frameworks */,
+				F8A2BABE15CC4FA000CAA854 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8A2BAAA15CC4FA000CAA854 = {
+			isa = PBXGroup;
+			children = (
+				F8A2BABF15CC4FA000CAA854 /* MinimalPersona */,
+				F8A2BAB815CC4FA000CAA854 /* Frameworks */,
+				F8A2BAB615CC4FA000CAA854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8A2BAB615CC4FA000CAA854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8A2BAB515CC4FA000CAA854 /* MinimalPersona.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8A2BAB815CC4FA000CAA854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8A2BAB915CC4FA000CAA854 /* UIKit.framework */,
+				F8A2BABB15CC4FA000CAA854 /* Foundation.framework */,
+				F8A2BABD15CC4FA000CAA854 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8A2BABF15CC4FA000CAA854 /* MinimalPersona */ = {
+			isa = PBXGroup;
+			children = (
+				F8A2BAC815CC4FA000CAA854 /* AppDelegate.h */,
+				F8A2BAC915CC4FA000CAA854 /* AppDelegate.m */,
+				F8A2BACB15CC4FA000CAA854 /* ViewController.h */,
+				F8A2BACC15CC4FA000CAA854 /* ViewController.m */,
+				F8A2BACE15CC4FA000CAA854 /* ViewController.xib */,
+				F8A2BAC015CC4FA000CAA854 /* Supporting Files */,
+			);
+			path = MinimalPersona;
+			sourceTree = "<group>";
+		};
+		F8A2BAC015CC4FA000CAA854 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8A2BAC115CC4FA000CAA854 /* MinimalPersona-Info.plist */,
+				F8A2BAC215CC4FA000CAA854 /* InfoPlist.strings */,
+				F8A2BAC515CC4FA000CAA854 /* main.m */,
+				F8A2BAC715CC4FA000CAA854 /* MinimalPersona-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8A2BAB415CC4FA000CAA854 /* MinimalPersona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A2BAD315CC4FA000CAA854 /* Build configuration list for PBXNativeTarget "MinimalPersona" */;
+			buildPhases = (
+				F8A2BAB115CC4FA000CAA854 /* Sources */,
+				F8A2BAB215CC4FA000CAA854 /* Frameworks */,
+				F8A2BAB315CC4FA000CAA854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinimalPersona;
+			productName = MinimalPersona;
+			productReference = F8A2BAB515CC4FA000CAA854 /* MinimalPersona.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8A2BAAC15CC4FA000CAA854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = F8A2BAAF15CC4FA000CAA854 /* Build configuration list for PBXProject "MinimalPersona" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8A2BAAA15CC4FA000CAA854;
+			productRefGroup = F8A2BAB615CC4FA000CAA854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8A2BAB415CC4FA000CAA854 /* MinimalPersona */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8A2BAB315CC4FA000CAA854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A2BAC415CC4FA000CAA854 /* InfoPlist.strings in Resources */,
+				F8A2BAD015CC4FA000CAA854 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8A2BAB115CC4FA000CAA854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A2BAC615CC4FA000CAA854 /* main.m in Sources */,
+				F8A2BACA15CC4FA000CAA854 /* AppDelegate.m in Sources */,
+				F8A2BACD15CC4FA000CAA854 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8A2BAC215CC4FA000CAA854 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8A2BAC315CC4FA000CAA854 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8A2BACE15CC4FA000CAA854 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8A2BACF15CC4FA000CAA854 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8A2BAD115CC4FA000CAA854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F8A2BAD215CC4FA000CAA854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8A2BAD415CC4FA000CAA854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinimalPersona/MinimalPersona-Prefix.pch";
+				INFOPLIST_FILE = "MinimalPersona/MinimalPersona-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8A2BAD515CC4FA000CAA854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinimalPersona/MinimalPersona-Prefix.pch";
+				INFOPLIST_FILE = "MinimalPersona/MinimalPersona-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8A2BAAF15CC4FA000CAA854 /* Build configuration list for PBXProject "MinimalPersona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A2BAD115CC4FA000CAA854 /* Debug */,
+				F8A2BAD215CC4FA000CAA854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A2BAD315CC4FA000CAA854 /* Build configuration list for PBXNativeTarget "MinimalPersona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A2BAD415CC4FA000CAA854 /* Debug */,
+				F8A2BAD515CC4FA000CAA854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8A2BAAC15CC4FA000CAA854 /* Project object */;
+}
